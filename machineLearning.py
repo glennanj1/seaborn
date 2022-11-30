@@ -10,8 +10,7 @@ b = 40
 
 y = [m*months+b for months in months]
 
-print(y)
-
 plt.plot(months, revenue, "o")
+plt.plot(months, y, 'o')
 
 plt.show()
